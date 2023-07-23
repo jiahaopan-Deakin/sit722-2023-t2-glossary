@@ -1,0 +1,22 @@
+{
+  "name": "sit722-2023-t2-glossary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiahaopan-Deakin/sit722-2023-t2-glossary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiahaopan-Deakin/sit722-2023-t2-glossary/issues"
+  },
+  "homepage": "https://github.com/jiahaopan-Deakin/sit722-2023-t2-glossary#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
