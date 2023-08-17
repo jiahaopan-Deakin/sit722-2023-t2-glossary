@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p><%= sub %></p>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>Reference</th>
+      </tr>
+    <% for (var i = 0; i < glossary.length; i++) { %>
+        <tr>
+            <td><%= glossary[i].ID %></td>
+            <td><%= glossary[i].Term %></td>
+            <td><%= glossary[i].Description %></td>
+            <td><%= glossary[i].Reference %></td>
+        </tr>
+    <% } %>
+    </table>
+  </body>
+</html>
